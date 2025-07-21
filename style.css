@@ -1,0 +1,291 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  width: 100%;
+  position: absolute;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 7rem;
+  padding: 0 2rem;
+}
+
+.logo {
+  width: 100px;
+}
+
+h1,
+h2,
+h3,
+p,
+button {
+  font-family: Bai Jamjuree;
+}
+
+p,
+button {
+  line-height: 25px;
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+}
+
+h1 {
+  color: hsl(210, 10%, 33%);
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+.txt1 {
+  text-align: center;
+  font-weight: 400;
+  width: 60%;
+  margin-bottom: 50px;
+}
+
+.btn {
+  display: block;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+button {
+  font-weight: 400;
+  color: white;
+  width: 200px;
+  height: 45px;
+  border: none;
+  border-radius: 50px;
+}
+
+.iOS {
+  background-color: hsl(171, 66%, 44%);
+  margin-right: 0.6rem;
+  box-shadow: 0px 5px 10px rgba(51, 204, 178, 0.4);
+  transition: background-color 0.3s;
+}
+
+.iOS:hover {
+  background-color: hsla(171, 66%, 44%, 0.795);
+  box-shadow: 0px 5px 10px rgba(51, 204, 178, 0.4);
+  cursor: pointer;
+}
+
+.Mac {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0px 5px 10px rgba(66, 88, 255, 0.4);
+  transition: background-color 0.3s;
+}
+
+.Mac:hover {
+  background-color: hsla(233, 100%, 69%, 0.868);
+  box-shadow: 0px 5px 10px rgba(66, 88, 255, 0.4);
+  cursor: pointer;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 13rem;
+  margin-bottom: 4rem;
+}
+
+h2 {
+  font-size: 34px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.txt2 {
+  width: 50%;
+}
+
+.container-3 {
+  display: flex;
+  margin-bottom: 7rem;
+}
+
+.computer {
+  width: 690px;
+}
+
+.section-container-3 {
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+  margin-left: 6rem;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 25px;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 0;
+}
+
+.txt3 {
+  margin-bottom: 1.5rem;
+  font-size: 16px;
+}
+
+.container-4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.txt4 {
+  width: 700px;
+  margin-bottom: 5rem;
+}
+
+.image-devices {
+  width: 900px;
+}
+
+.container-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.container-6 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 7rem;
+}
+
+.section-container-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 350px;
+}
+
+.icons {
+  width: 40px;
+  margin-bottom: 1rem;
+}
+
+.companies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.microsoft {
+  width: 150px;
+  height: 30px;
+}
+
+.footer-container {
+  height: 8rem;
+  margin-top: 15rem;
+  background-color: hsl(210, 12%, 94%);
+  display: flex;
+  justify-content: left;
+  gap: 3rem;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  margin-top: 2.5rem;
+  margin-left: 10rem;
+  margin-right: 5rem;
+}
+
+.footer-information {
+  width: 130px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.footer-links {
+  margin: 0.4rem;
+  display: flex;
+  color: hsl(210, 10%, 33%);
+  cursor: pointer;
+}
+
+.social-media {
+  margin-top: 3rem;
+  margin-left: 10rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-media-icons {
+  margin-left: 1rem;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+
+  .txt2 {
+    width: 70%;
+  }
+
+  .container-3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .computer {
+    width: 90%;
+  }
+  .section-container-3 {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .image-devices {
+    width: 100%;
+  }
+
+  .container-4 {
+    width: 90%;
+  }
+
+  .container-6 {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .companies {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    height: auto;
+  }
+}
