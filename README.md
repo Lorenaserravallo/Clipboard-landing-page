@@ -74,4 +74,5 @@ Apesar de conseguir aplicar media queries para responsividade, ainda assim tive 
 
 ## Autores
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor
+- Lorena Serravallo
