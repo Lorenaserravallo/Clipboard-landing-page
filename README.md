@@ -19,7 +19,7 @@ A escolha deste projeto foi feita para o meu desenvolvimento nos aspectos de res
 
 ### Construido com
 
-- HTML Semantico
+- HTML Semântico
 - CSS
 - Flexbox
 - Responsividade
